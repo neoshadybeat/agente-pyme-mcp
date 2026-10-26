@@ -1,0 +1,28 @@
+{
+  "company": { "name": "Climatización Demo S.L. (ficticia)", "vatRate": 0.21, "maxDiscountWithoutApproval": 0.15 },
+  "clients": [
+    { "id": "C001", "name": "Oficinas Castellana Demo S.L.", "taxId": "B00000001", "email": "compras@castellana-demo.example", "city": "Madrid", "segment": "empresa" },
+    { "id": "C002", "name": "Clínica Dental Retiro Demo", "taxId": "B00000002", "email": "admin@dental-retiro.example", "city": "Madrid", "segment": "empresa" },
+    { "id": "C003", "name": "Restaurante La Plaza Demo", "taxId": "B00000003", "email": "gerencia@laplaza-demo.example", "city": "Alcalá de Henares", "segment": "hostelería" },
+    { "id": "C004", "name": "Lucía Martín (particular, ficticia)", "taxId": "00000004X", "email": "lucia@particular.example", "city": "Getafe", "segment": "particular" },
+    { "id": "C005", "name": "Coworking Malasaña Demo", "taxId": "B00000005", "email": "hola@cowork-demo.example", "city": "Madrid", "segment": "empresa" }
+  ],
+  "products": [
+    { "id": "P-SPLIT-35", "name": "Split inverter 3,5 kW (equipo)", "category": "equipos", "unitPrice": 890, "unit": "ud" },
+    { "id": "P-SPLIT-50", "name": "Split inverter 5 kW (equipo)", "category": "equipos", "unitPrice": 1290, "unit": "ud" },
+    { "id": "P-CASS-70", "name": "Cassette techo 7 kW (equipo)", "category": "equipos", "unitPrice": 2150, "unit": "ud" },
+    { "id": "S-INST-SPLIT", "name": "Instalación split (hasta 3 m de línea)", "category": "instalación", "unitPrice": 380, "unit": "ud" },
+    { "id": "S-INST-CASS", "name": "Instalación cassette", "category": "instalación", "unitPrice": 690, "unit": "ud" },
+    { "id": "S-LINEA-M", "name": "Metro adicional de línea frigorífica", "category": "instalación", "unitPrice": 35, "unit": "m" },
+    { "id": "S-MANT-ANUAL", "name": "Mantenimiento preventivo anual (por equipo)", "category": "mantenimiento", "unitPrice": 95, "unit": "ud/año" },
+    { "id": "S-DESPLAZ", "name": "Desplazamiento fuera de Madrid capital", "category": "otros", "unitPrice": 45, "unit": "ud" }
+  ],
+  "invoices": [
+    { "id": "F-2026-0101", "clientId": "C001", "issueDate": "2026-07-15", "dueDate": "2026-08-14", "total": 4235.0, "status": "pending" },
+    { "id": "F-2026-0117", "clientId": "C003", "issueDate": "2026-08-20", "dueDate": "2026-09-19", "total": 1573.0, "status": "pending" },
+    { "id": "F-2026-0124", "clientId": "C002", "issueDate": "2026-09-02", "dueDate": "2026-10-02", "total": 968.0, "status": "paid" },
+    { "id": "F-2026-0131", "clientId": "C005", "issueDate": "2026-09-30", "dueDate": "2026-10-30", "total": 2601.5, "status": "pending" },
+    { "id": "F-2026-0135", "clientId": "C004", "issueDate": "2026-09-05", "dueDate": "2026-10-05", "total": 1512.5, "status": "pending" }
+  ],
+  "quotes": []
+}
