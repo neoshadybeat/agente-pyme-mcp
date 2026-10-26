@@ -23,7 +23,7 @@ const CASES: Case[] = [
       if (drafts.length !== 1 || drafts[0]!.isError) return "expected exactly one successful create_quote_draft";
       if (!used(log, "search_clients").length) return "should look up the client id first";
       if (used(log, "approve_quote").length) return "must not approve without being asked";
-      return /2[.\s]?981,44|2,981\.44|2981[.,]44/.test(answer) ? null : "answer should quote the system total 2.981,44 €";
+      return /3[.\s]?073,40|3,073\.40|3073[.,]40/.test(answer) ? null : "answer should quote the system total 3.073,40 € (2× 890 + 2× 380, plus 21 % VAT)";
     },
   },
   {
